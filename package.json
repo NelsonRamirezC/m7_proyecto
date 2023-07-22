@@ -1,0 +1,42 @@
+{
+  "name": "trabajo_m7",
+  "version": "1.0.0",
+  "description": "Ejemplo de prueba de consolidación m7",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NelsonRamirezC/m7_proyecto.git"
+  },
+  "keywords": [
+    "express",
+    "cors",
+    "morgan",
+    "sequelize",
+    "pg",
+    "pg-hstore",
+    "bootcamp",
+    "cursos"
+  ],
+  "author": "Nelson Ramírez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NelsonRamirezC/m7_proyecto/issues"
+  },
+  "homepage": "https://github.com/NelsonRamirezC/m7_proyecto#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.32.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
